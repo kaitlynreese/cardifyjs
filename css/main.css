@@ -1,0 +1,46 @@
+/*
+ * main.css
+ * Author: Kaitlyn Reese
+ */
+/* line 9, ../scss/main.scss */
+body {
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* line 14, ../scss/main.scss */
+.container {
+  display: none;
+}
+/* line 17, ../scss/main.scss */
+.container .content {
+  margin-bottom: 50px;
+}
+/* line 20, ../scss/main.scss */
+.container .content .title {
+  margin-bottom: 20px;
+}
+/* line 24, ../scss/main.scss */
+.container .content .helper {
+  width: 230px;
+  line-height: 18px;
+  margin: 0 auto 30px auto;
+  color: #616466;
+}
+/* line 31, ../scss/main.scss */
+.container .content .credit-card {
+  width: 265px;
+  margin: 0 auto;
+}
+/* line 35, ../scss/main.scss */
+.container .content .credit-card #submit {
+  width: 100%;
+}
+/* line 38, ../scss/main.scss */
+.container .content .credit-card #submit[disabled] {
+  opacity: 0.4;
+}
+/* line 44, ../scss/main.scss */
+.container .content .gnocchi {
+  margin-bottom: 1em;
+}

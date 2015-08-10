@@ -1,0 +1,48 @@
+/*!
+ * main.css
+ * Author: Kaitlyn Reese
+ */
+
+* {
+}
+
+body {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.container {
+    display: none;
+    
+    .content {
+        margin-bottom: 50px;
+        
+        .title {
+            margin-bottom: 20px;
+        }
+
+        .helper {
+            width: 230px;
+            line-height: 18px;
+            margin: 0 auto 30px auto;
+            color: #616466;
+        }
+
+        .credit-card {
+            width: 265px;
+            margin: 0 auto;
+            
+            #submit {
+                width: 100%;
+
+                &[disabled] {
+                    opacity: 0.4;
+                }
+            }
+        }
+        
+        .gnocchi {
+            margin-bottom: 1em;
+        }
+    }
+}
